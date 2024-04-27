@@ -1,8 +1,19 @@
 body {
     display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.button-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .button {
@@ -11,5 +22,5 @@ body {
     padding: 14px;
     cursor: pointer;
     color: white;
-    font-weight:bold;
+    font-weight: bold;
 }
