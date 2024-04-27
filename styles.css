@@ -6,6 +6,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 25px;
 }
 
@@ -14,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-bottom: 25px;
 }
 
 .button {
@@ -22,5 +24,15 @@ body {
     padding: 14px;
     cursor: pointer;
     color: white;
+    font-weight: bold;
+}
+
+.btn-next-round {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#roundNumber {
+    font-size: 20px;
     font-weight: bold;
 }
